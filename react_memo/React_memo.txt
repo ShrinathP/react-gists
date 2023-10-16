@@ -1,0 +1,10 @@
+React Memoization notes
+
+https://hygraph.com/blog/react-memo
+https://dmitripavlutin.com/use-react-memo-wisely/
+https://refine.dev/blog/react-memo-guide/#memoizing-a-functional-component-using-reactmemo
+https://www.youtube.com/watch?v=BlUwu_6rSkw
+https://www.youtube.com/watch?v=DEPwA3mv_R8
+
+React Query
+https://www.youtube.com/watch?v=lLWfZL-Y8lM
