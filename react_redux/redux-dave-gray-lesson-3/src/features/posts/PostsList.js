@@ -1,11 +1,16 @@
-import { useSelector} from "react-redux";
-import { selectAllPosts } from "./postsSlice";
+import { useSelector, useDispatch } from "react-redux";
+import { selectAllPosts, getPostsStatus, getPostsError, fetchPosts } from "./postsSlice";
+import { useEffect } from "react";
+
 import PostAuthor from "./PostAuthor";
 import TimeAgo from "./TimeAgo";
 import ReactionsButtons from "./ReactionButtons";
 
 const PostsList = () => {
+  const dispatch = useDispatch()
   const posts = useSelector(selectAllPosts);
+  const postsStatus = useSelector(getPostsStatus);
+  const error = useSelector(getPostsError);
 
   const orderedPosts = posts
     .slice()
