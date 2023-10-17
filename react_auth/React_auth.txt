@@ -1,0 +1,13 @@
+React authentication
+
+https://www.youtube.com/watch?v=-JJFQ9bkUbo
+https://www.youtube.com/watch?v=mvfsC66xqj0
+
+https://www.youtube.com/watch?v=nI8PYZNFtac
+
+Role based authorization
+https://www.youtube.com/watch?v=oUZjO00NkhY
+
+
+Men stack full auth
+https://www.youtube.com/watch?v=CvCiNeLnZ00
