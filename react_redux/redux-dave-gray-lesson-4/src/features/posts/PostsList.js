@@ -1,27 +1,15 @@
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
 import {
   selectAllPosts,
   getPostsStatus,
   getPostsError,
-  fetchPosts,
 } from "./postsSlice";
-import { useEffect } from "react";
 import PostsExcerpt from "./PostsExcerpt";
 
 const PostsList = () => {
-  const dispatch = useDispatch();
   const posts = useSelector(selectAllPosts);
   const postsStatus = useSelector(getPostsStatus);
   const error = useSelector(getPostsError);
-
-  // IMP
-  //run async thunk function of postsSlice on load of PostsList
-  useEffect(() => {
-    if (postsStatus === 'idle') {
-      console.log('post status ' + postsStatus)
-      dispatch(fetchPosts());
-    }
-  }, [postsStatus, dispatch]);
 
   let content;
   if (postsStatus === "loading") {
@@ -42,7 +30,6 @@ const PostsList = () => {
 
   return (
     <section>
-      <h2>Posts</h2>
       {content}
     </section>
   );

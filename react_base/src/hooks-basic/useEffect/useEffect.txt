@@ -1,0 +1,61 @@
+
+// useEffect cleanup function in detail
+// How to avoid bugs in useEffect - 
+https://www.bam.tech/en/article/how-to-avoid-bugs-in-useeffect
+// https://hackernoon.com/cleanup-functions-in-reacts-useeffect-hook-explained   - vgood
+// https://www.smashingmagazine.com/2020/07/custom-react-hook-fetch-cache-data/ - vgood with useReducer
+// https://dev.to/pallymore/clean-up-async-requests-in-useeffect-hooks-90h
+
+*Coded from*
+1. All useEffect Mistakes Every Junior React Developer Makes
+LamaDev
+https://www.youtube.com/watch?v=QQYeipc_cik
+
+
+UseEffect CleanUp Function
+* Best Ways to Stop API Call or Status Updates *
+axios/fetch - Stop API to updateStatus using isCancelled variable
+fetch - Stop API call using AbortController
+axios  - Stop API Call using CancelToken
+
+*You might not need useEffect - vgood
+https://react.dev/learn/you-might-not-need-an-effect
+Stop using useEffect for 
+Updating state based on props or state 
+Caching expensive calculations 
+Resetting all state when a prop changes
+
+Using useRef for stopping first render of useEffect
+https://typeofnan.dev/how-to-prevent-useeffect-from-running-on-mount-in-react/
+https://stackoverflow.com/questions/59492626/stop-useeffect-from-running-on-mount
+https://dpericich.medium.com/how-to-bypass-useeffect-on-your-first-page-render-c31b7ba112a7
+
+* Mastering useEffect - Jack Herrington - VVIMP
+1. All about references
+Dependency Arrays useEffect
+https://youtu.be/dH6i3GurZW8?si=3GIcW6-gh74NnqMG&t=406
+2. Stop using objects in Dependency array - as objects are compared by Reference which are not equal 
+- even if their values are equal
+3. Passing functions in Dependency of useEffect - this rerenders the component again and again as functions are recreated
+https://www.goldencreche.com/blog/functions-in-dependency-array-of-useeffect
+https://www.zipy.ai/blog/react-useeffect-dependency-array#section-8
+
+
+Is JS Spread a performance killer ?
+Spread Antipattern
+https://www.youtube.com/watch?v=tcZbY-Q0TIE
+How I made javascript blazing fast
+https://www.youtube.com/watch?v=ip51Y5v3WLk
+
+https://freecodecamp.org/news/most-common-react-useeffect-problems-and-how-to-fix-them/
+https://dev.to/rem0nfawzi/dont-use-useeffect-3ca8
+
+
+good article
+https://www.perssondennis.com/articles/useeffect-the-hook-react-never-should-have-rendered
+
+GoodBye useEffect
+https://www.youtube.com/watch?v=bGzanfKVFeU
+
+Why you probaby do not need useEffect, and refactoring
+https://www.youtube.com/watch?v=nGDnzAWuMig

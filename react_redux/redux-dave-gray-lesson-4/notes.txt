@@ -1,0 +1,21 @@
+Start at 1:48:37
+
+1. React Router Dom
+    Layout Component with Outlet Component
+    Setting up Header or Footer with all of the components/pages
+
+2. Nested Routes, index, path, element
+    Check Parent Child Route - Nested Routes
+    Check Layout route having outlet - wraps header/footer/ common styles
+    Check index route - doesnt need path
+
+3. Stopping 2nd request to go using another useState - requestStatus
+    EditPostForm.js line 18
+    Using // using requestStatus to stop the 2nd request of Edit Form
+
+4. For Link Components in `to={}` attribute
+    Use /post/edit/:postId in Link instead of using post/edit/:postId
+    To properly navigate relative to the base url
+    SinglePostPage.js line 29
+
+5. Check sortedPosts change done in the code 
