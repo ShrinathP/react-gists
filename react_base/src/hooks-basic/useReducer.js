@@ -7,4 +7,13 @@
  * redux reducer vs useReducer reducer vs js reducer
  * https://blog.logrocket.com/react-usereducer-hook-ultimate-guide/
  * 
+ * 
+ * 
+ * 
+ * usereducer examples todo
+ * https://www.youtube.com/watch?v=26ogBZXeBwc
+ * https://www.youtube.com/watch?v=RZPAQV7JvNU
+ * https://www.youtube.com/watch?v=rgp_iCVS8ys
+ * https://www.youtube.com/watch?v=kK_Wqx3RnHk
+ * 
  */

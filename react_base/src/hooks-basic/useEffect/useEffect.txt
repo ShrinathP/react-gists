@@ -25,6 +25,8 @@ Updating state based on props or state
 Caching expensive calculations 
 Resetting all state when a prop changes
 
+You might not need useEffecthttps://youtu.be/V1f8MOQiHRw?si=PtycChdoVmaBA-Md&t=621
+
 Using useRef for stopping first render of useEffect
 https://typeofnan.dev/how-to-prevent-useeffect-from-running-on-mount-in-react/
 https://stackoverflow.com/questions/59492626/stop-useeffect-from-running-on-mount
