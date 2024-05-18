@@ -19,8 +19,9 @@ takes an async axios func for POST, PUT, DELETE, gives options onSuccess, onFail
 executing Mutation
 returns an object which has mutate function to execute mutation
 
-Command to start a json server
-npx json-server -w data/db.json -p 3500
+Command to start a json server, 
+npx json-server@0.17.0 -w data/db.json -p 3500
+NOTE: use old version of json-server as id is int in old version, in new version ids are string based
 
 use select in useQuery to transform data, 
 select takes the response data as input and you can sort the data or transform it
