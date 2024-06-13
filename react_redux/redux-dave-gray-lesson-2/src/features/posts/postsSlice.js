@@ -72,7 +72,8 @@ const postsSlice = createSlice({
 
 /*
 
-1. export actions - used in component to modify state - createSlice creates action creator function for every reducer - needs to be executed in dispatch function
+1. export actions - used in component to modify state - 
+createSlice creates action creator function for every reducer - needs to be executed in dispatch function
 2. export reducer - used in configurestore
 3. export selectorFunction - used in component to select properties of a state ()
 advantage is - if the shape of state changes, we can change this function at only one place
