@@ -6,7 +6,6 @@ https://www.youtube.com/watch?v=_3ooazcK4TI&list=PLVLCW9fcWpYT8mPZCaRlPOks7TRJPz
 
 https://overreacted.io/a-complete-guide-to-useeffect/#moving-functions-inside-effects
 
-https://overreacted.io/a-complete-guide-to-useeffect/#moving-functions-inside-effects
 
 
 # Getting Started with Create React App
